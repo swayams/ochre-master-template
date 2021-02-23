@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb", "plugin:react/recommended", "prettier", "prettier/react"],
+  "extends": ["airbnb", "plugin:react/recommended", "prettier"],
   "plugins": ["react-hooks"],
   "env": {
     "browser": true,
@@ -42,6 +42,7 @@
     "react/react-in-jsx-scope": 0,
     "react/jsx-props-no-spreading": 0,
     "react-hooks/rules-of-hooks": 2,
+    // eslint-disable-next-line
     "react-hooks/exhaustive-deps": 2
   },
   "settings": {

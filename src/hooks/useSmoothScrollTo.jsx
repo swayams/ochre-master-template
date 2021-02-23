@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import { scroller, animateScroll } from "react-scroll";
@@ -7,6 +8,7 @@ const DefOptions = {
 };
 
 const useSmoothScrollTo = (anchorOrPosition, options = {}) => {
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   const opts = { ...DefOptions, ...options };
 
   const handleScrollTo = React.useCallback(() => {

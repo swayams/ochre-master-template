@@ -50,9 +50,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sass",
       options: {
-        data: `@import "core.scss";`,
-        includePaths: [path.resolve(__dirname, "src/style")],
-      },
+        
+          data: `@import "core.scss";`,
+          includePaths: [path.resolve(__dirname, "src/style/")],
+        } 
+      
     },
     {
       resolve: "gatsby-omni-font-loader",
